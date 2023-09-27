@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ebe3775595dd047bca249527ec3f1e8b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48200
+  packageName: Dynamic Fog & Mist 2
+  packageVersion: 9.0.2
+  assetPath: Assets/DynamicFog/URP/DynamicFog_URP.unitypackage
+  uploadId: 581576
