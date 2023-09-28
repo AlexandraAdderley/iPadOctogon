@@ -1,9 +1,49 @@
 fileFormatVersion: 2
-guid: b8f75ce20c2b7614ca93a5d1e64f7abd
+guid: dad49246225b32e4385834c04787cfd9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_A
+    second: {fileID: 2100000, guid: 8da8b2cca552586418159a7378edde79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_B
+    second: {fileID: 2100000, guid: 6b9a18347a927ca4da7c0c33ac48cad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_C
+    second: {fileID: 2100000, guid: 64e630a6aa06d5043806ab2497f92a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_D
+    second: {fileID: 2100000, guid: 97bfc801c7ce71d4bb06cb715485b156, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_E
+    second: {fileID: 2100000, guid: f534a27caaf9ff94aa10cae06ec9d156, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_F
+    second: {fileID: 2100000, guid: 9f3b112f9eb442c409afac33dc4e65d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_G
+    second: {fileID: 2100000, guid: e84b3e0191b26344bae404addada5082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Residential_H
+    second: {fileID: 2100000, guid: 0b43b78688aab6c459fd603a712861b6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
