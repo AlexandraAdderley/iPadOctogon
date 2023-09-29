@@ -13,7 +13,11 @@ public class objectManager : MonoBehaviour
     private float rotation;
     private int currentOption = 0;
 
+    private float dissolve = 0f;
+
     public List<GameObject> options = new List<GameObject>();
+
+    public float fadeSpeed = 0.1f;
 
     void Start()
     {
@@ -55,22 +59,23 @@ public class objectManager : MonoBehaviour
     }
 
     public void OptionNext(){
-        options[currentOption].SetActive(false);
+        options[currentOption].GetComponent<setDissolve>().TurnOff();
         currentOption++;
         if(currentOption > options.Count -1){
             currentOption = 0;
         }
         options[currentOption].SetActive(true);
+        options[currentOption].GetComponent<setDissolve>().TurnOn();
     }
 
     public void OptionPrevious(){
-        options[currentOption].SetActive(false);
+        options[currentOption].GetComponent<setDissolve>().TurnOff();
         currentOption--;
         if(currentOption < 0){
             currentOption = options.Count -1;
         }
         options[currentOption].SetActive(true);
-
+        options[currentOption].GetComponent<setDissolve>().TurnOn();
     }
 
     void Update()
