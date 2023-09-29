@@ -16,6 +16,8 @@ public class placeObject : MonoBehaviour
 
     private ARPlaneManager aRPlaneManager;
 
+  //  private ARTrackableManager aRTrackableManager;
+
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     public Material _planeMaterial;
@@ -23,6 +25,8 @@ public class placeObject : MonoBehaviour
     private void Awake(){
         aRRaycastManager = GetComponent<ARRaycastManager>();
         aRPlaneManager = GetComponent<ARPlaneManager>();
+
+   //     aRTrackableManager = GetComponent<ARTrackableManager>;
     }
 
     private void OnEnable(){
@@ -58,6 +62,9 @@ public class placeObject : MonoBehaviour
                     prefab.SetActive(true);
                     _planeMaterial.SetColor("_TexTintColor", new Color(1.0f, 1.0f, 1.0f, 0.0f));
            //         ARPlaneManager.
+                    isPlaced = true;
+
+            //        ARTrackableManager.SetTrackablesActive();
 
                 }
 
