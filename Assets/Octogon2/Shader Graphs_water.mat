@@ -60,11 +60,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth: 0
-    - _FoamDistance: 0.69
-    - _FoamMovementSpeed: -0.12
-    - _FoamStrength: 1.09
-    - _NormalSpeed: 0.39
+    - _Depth: 0.89
+    - _FoamDistance: 0.97
+    - _FoamMovementSpeed: -2.01
+    - _FoamStrength: 13.87
+    - _NormalSpeed: 0.07
     - _NormalStrength: 0.3
     - _NormalTile: 1.38
     - _QueueControl: 0
@@ -72,12 +72,12 @@ Material:
     - _Smoothness: 0.8
     - _WaveScale: 8.05
     - _WaveSpeed: 1
-    - _WaveStrength: 0.05
+    - _WaveStrength: 0.001
     - _WaveTile: 1
     m_Colors:
-    - _DepthColor: {r: 0.19668922, g: 0.5088922, b: 0.6415094, a: 0}
+    - _DepthColor: {r: 0.10849059, g: 0.7373847, b: 1, a: 0}
     - _FoamMovement: {r: 0.3, g: 0.1, b: 0, a: 0}
-    - _FoamTiling: {r: 80, g: 80, b: 0, a: 0}
+    - _FoamTiling: {r: 400, g: 400, b: 0, a: 0}
     - _Vector2: {r: 1.89, g: 16.9, b: 0, a: 0}
     - _WaterA: {r: 0.2943663, g: 0.43435386, b: 0.5943396, a: 0}
     - _WaterB: {r: 0.36470592, g: 0.6090998, b: 1, a: 0}
