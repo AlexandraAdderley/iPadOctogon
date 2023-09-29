@@ -41,6 +41,11 @@ public class placeObject : MonoBehaviour
         EnhancedTouch.Touch.onFingerDown -= FingerDown;
     }
 
+    public void EnableReposition(){
+        isPlaced = false;
+
+    }
+
     private void FingerDown(EnhancedTouch.Finger finger){
         if(finger.index !=0) return;
 
