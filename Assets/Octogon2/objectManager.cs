@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class objectManager : MonoBehaviour
 {
-
+    private scaleMaterials _scaleMaterials;
     public float initialSize = 1.0f;
     public float incrementSize = 0.1f;
 
@@ -21,7 +21,9 @@ public class objectManager : MonoBehaviour
 
     void Start()
     {
+        _scaleMaterials = gameObject.GetComponent<scaleMaterials>();
         transform.localScale = new Vector3(initialSize, initialSize, initialSize);
+        _scaleMaterials.Rescale();
         transform.transform.rotation = Quaternion.Euler(0f, initialRotation, 0f);
         rotation = initialRotation;
 
@@ -37,13 +39,13 @@ public class objectManager : MonoBehaviour
 
     public void SizeUp(){
         transform.localScale = new Vector3(transform.localScale.x * (1f + incrementSize), transform.localScale.y * (1f + incrementSize), transform.localScale.z * (1f + incrementSize));
-
+        _scaleMaterials.Rescale();
     }
 
 
     public void SizeDown(){
         transform.localScale = new Vector3(transform.localScale.x * (1f - incrementSize), transform.localScale.y * (1f - incrementSize), transform.localScale.z * (1f - incrementSize));
-
+        _scaleMaterials.Rescale();
     }
 
     public void RotateClock(){
